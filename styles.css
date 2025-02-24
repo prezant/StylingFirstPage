@@ -6,21 +6,33 @@ body {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #bdbdbd;
     color: white;
-    padding: 20px;
+    padding: 0px;  
     text-align: center;
 }
 
 /* Style the navigation bar */
 nav {
-    background-color: #444;
+    background-color: #88a4b8;
     padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/*
+    display: inline-block;
+    width: 80%;*/
+}
+
+/* Style images inside nav */
+nav img {
+    width: 10%;
 }
 
 /* Style the main content */
 main {
-    background-color: #f9f9f9;
+    background-color: #e6e608;
     font-size: 18px;
     padding: 20px;
 }
@@ -33,13 +45,13 @@ footer {
     text-align: center;
 }
 
-/* Style the list items */
+/* Commented out the list items styling */
 li {
     display: inline-block;
     width: 150px;
     padding: 10px;
     text-align: center;
-}
+} 
 
 /* Style the h1 */
 h1 {
